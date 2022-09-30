@@ -1,0 +1,19 @@
+{
+    "name": "steevoh/mpesa",
+    "autoload": {
+        "psr-4": {
+            "Steevoh\\Mpesa\\": "src/Mpesa/"
+        }
+    },
+    "authors": [{
+        "name": "Stephen Ngari",
+        "email": "sngari57@gmail.com"
+    }],
+    "require": {
+        "php": "8.0|^8.1",
+        "nesbot/carbon": "3.x-dev",
+        "guzzlehttp/guzzle": "^7.4",
+        "giggsey/libphonenumber-for-php": "^8.12",
+      "ext-ctype": "*"
+    }
+}
